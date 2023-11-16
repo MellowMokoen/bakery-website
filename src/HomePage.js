@@ -4,7 +4,7 @@ import "./HomePage.css";
 export default function() {
     return (
         <div>
-          <h1>
+          <h1 className="Home-h1">
             Welcome to Mellow's Bakery
           </h1> 
            

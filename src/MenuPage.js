@@ -9,8 +9,10 @@ import sweets from "./images/sweets.jpg";
 
 export default function MenuPage() {
     return (
-        <div>
-            <h1>Find your favorite</h1>
+     <div>
+        <h1 className="Menu-h1">Find your favorite</h1>
+        <div className="container">
+            
             <img src={bread} alt="Bread" />
             <img src={cookie} alt="Cookie" />
             <img src={croissant} alt="Croissant" />
@@ -18,5 +20,6 @@ export default function MenuPage() {
             <img src={cakes} alt="Swede-cakes" />
             <img src={sweets} alt="Sweets" />
         </div>
+     </div>  
     );
 }
