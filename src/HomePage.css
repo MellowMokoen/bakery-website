@@ -7,25 +7,6 @@ body {
 
 }
 
-.Navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-
-.nav-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.nav-list li {
-    margin: 0 15px;
-
-}
-
 h1 {
     color: brown;
 }

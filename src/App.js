@@ -10,9 +10,9 @@ function App() {
   <Router>
     <div className='App'>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/menu">Menu</Link>
+        <Link to="/" className='nav-link'>Home</Link>
+        <Link to="/about" className='nav-link'>About</Link>
+        <Link to="/menu" className='nav-link'>Menu</Link>
       </nav>
        <Routes>
         <Route path = "/" exact element={<HomePage />} />

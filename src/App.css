@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  margin: 30px;
 }
+
+.nav-link  {
+  color: brown;
+  text-decoration: none;
+  padding: 7px;
+  box-shadow: 3px 3px 5px 5px rgb(182, 167, 167);
+  margin: 20px 10px;
+  border: 1px solid brown;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: bold;
+}
+
 
 

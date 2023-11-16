@@ -10,7 +10,7 @@ import sweets from "./images/sweets.jpg";
 export default function MenuPage() {
     return (
         <div>
-            <h1>Hi there React</h1>
+            <h1>Find your favorite</h1>
             <img src={bread} alt="Bread" />
             <img src={cookie} alt="Cookie" />
             <img src={croissant} alt="Croissant" />
