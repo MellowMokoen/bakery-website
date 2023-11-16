@@ -1,12 +1,11 @@
 import React from "react";
 import "./HomePage.css";
 
-
 export default function() {
     return (
-        <div>
+        <div className="Navbar">
             <header>
-                <ul>
+                <ul className="nav-list">
                     <li>
                   Home 
                     </li>
@@ -18,12 +17,7 @@ export default function() {
                     </li>
                 </ul>
             </header>
-            <h1>
-                Mellow's Bakery
-            </h1>
-            <h2>
-                Bakery
-            </h2>
+           
         </div>
     );
 }
