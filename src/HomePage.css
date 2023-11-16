@@ -8,5 +8,22 @@ body {
 }
 
 h1 {
+    font-family: monospace;
     color: brown;
+    margin: 200px 130px;
+    border: 1px solid brown;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 5px rgb(182, 167, 167);
+}
+
+@media(max-width:780px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    body {
+        background-size: cover;
+    
+    }
 }
