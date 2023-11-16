@@ -10,7 +10,7 @@ import sweets from "./images/sweets.jpg";
 export default function MenuPage() {
     return (
      <div>
-        <h1 className="Menu-h1">Find your favorite</h1>
+        <h1 className="Menu-h1">On the menu we have :</h1>
         <div className="container">
           <div>
             <p>Cinnamon Bread</p>
