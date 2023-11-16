@@ -2,15 +2,20 @@ body {
     background-image: url('./images/background.gif');
     background-size: cover;
     background-attachment: scroll;
-    font-size: 20px;
-    color: black;
 
+}
+
+#home {
+    background-image: url('./images/background2.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 10px;
 }
 
 .Home-h1 {
     font-family: monospace;
-    color: brown;
-    margin: 200px 130px;
+    color: rgb(189, 7, 7);
+    margin: 200px 100px;
     border: 1px solid brown;
     padding: 20px;
     border-radius: 20px;
