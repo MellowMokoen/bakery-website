@@ -12,13 +12,31 @@ export default function MenuPage() {
      <div>
         <h1 className="Menu-h1">Find your favorite</h1>
         <div className="container">
-            
+          <div>
+            <p>Cinnamon Bread</p>
             <img src={bread} alt="Bread" />
+          </div>
+          <div>
+            <p>Cookies</p>
             <img src={cookie} alt="Cookie" />
-            <img src={croissant} alt="Croissant" />
-            <img src={cupcakes} alt="Cupcakes" />
+          </div>
+          <div>
+            <p>Swede-Cakes</p>
             <img src={cakes} alt="Swede-cakes" />
+          </div>
+          <div>
+            <p>Croissant</p>
+            <img src={croissant} alt="Croissant" />
+          </div>
+          <div>
+            <p>Cupcakes</p>
+            <img src={cupcakes} alt="Cupcakes" />
+          </div>
+          <div>
+            <p>Sweets</p>
             <img src={sweets} alt="Sweets" />
+          </div>
+            
         </div>
      </div>  
     );
