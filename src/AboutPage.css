@@ -1,0 +1,14 @@
+.about-h1 {
+    color: brown;
+    margin: 50px;
+    text-align: left;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.about-p {
+    color: rgb(126, 23, 23);
+    line-height: 27px;
+    font-family: cursive;
+    font-weight: bold;
+}
