@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/background.gif');
+    background-image: url('./images/background.gif');
     background-size: cover;
     background-attachment: scroll;
     font-size: 20px;
