@@ -38,6 +38,7 @@ export default function MenuPage() {
           </div>
             
         </div>
+        <div className= "text-center reference">Coded by Mamello</div>
      </div>  
     );
 }

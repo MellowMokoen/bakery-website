@@ -24,6 +24,11 @@ export default function(){
             become an integral part of the local tapestry, weaving memories, and connections that <br />
             endure beyond the confines of its charming storefront.
         </div>
+        <div className="contacts">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
       </div>
     );
 }
