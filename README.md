@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+To access the live website open : https://effulgent-tiramisu-19bcf6.netlify.app/
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
