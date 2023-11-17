@@ -25,9 +25,9 @@ export default function(){
             endure beyond the confines of its charming storefront.
         </div>
         <div className="contacts">
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
+          <a href="https://github.com/MellowMokoen"><i class="fa-brands fa-github github"></i></a>
+          <a href="https://twitter.com/Mellow_Mokoen"><i class="fa-brands fa-twitter twitter"></i></a>
+          <a href="/"><i class="fa-brands fa-linkedin linkedin"></i></a>
         </div>
       </div>
     );

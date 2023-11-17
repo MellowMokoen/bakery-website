@@ -13,3 +13,23 @@
     font-family: cursive;
     font-weight: bold;
 }
+
+.contacts {
+    margin: 20px;
+}
+
+.contacts a {
+    color: brown;
+    background-color: bisque;
+    margin: 15px;
+    padding: 12px;
+    font-size: medium;
+    border-radius: 10px;
+    box-shadow: 5px 4px 3px burlywood;
+}
+
+.contacts a:hover {
+    color: green;
+    font-size: 30px;
+    background-color: white;
+}
