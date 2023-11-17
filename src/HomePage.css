@@ -12,6 +12,9 @@ body {
     background-attachment: scroll;
     border-radius: 10px;
     padding: 20px;
+    height: auto;
+    max-width: 100%;
+    
 }
 
 .Home-h1 {
@@ -25,19 +28,35 @@ body {
     box-shadow: 3px 3px 5px 5px rgb(182, 167, 167);
 }
 
-@media(max-width:780px) {
+@media(max-width:786px) {
     .Home-h1 {
         font-size: 25px;
-        margin: 50px;
+        text-align: center;
     }
 
     body {
         background-position: center;
+        background-attachment: scroll;
+        margin: 0;
+        padding: 0;
     
     }
 
     #home {
-        padding-right: 10px;
+        max-width: 90%;
+        height: auto;
+        padding-right: 5%;
         background-position: center;
+        background-attachment: scroll;
+    }
+
+    #home .Home-h1 {
+        text-align: center;
+        font-size: 20px;
+        padding: 5%;
+        margin: 65% auto;
+        height: 29px;
+        max-width: 100%;
+    
     }
 }
