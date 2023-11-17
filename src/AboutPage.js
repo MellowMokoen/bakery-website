@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutPage.css";
 
-export default function(){
+export default function AboutPage(){
     return (
       <div>
         <div className="about-h1">

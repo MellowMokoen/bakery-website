@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomePage.css";
 
-export default function() {
+export default function HomePage() {
     return (
         <div className="container" id="home">
           <h1 className="Home-h1">
