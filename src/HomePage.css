@@ -2,6 +2,7 @@ body {
     background-image: url('./images/background.gif');
     background-size: cover;
     background-attachment: scroll;
+    margin: 0;
 
 }
 
@@ -10,12 +11,14 @@ body {
     background-size: cover;
     background-attachment: scroll;
     border-radius: 10px;
+    padding: 20px;
 }
 
 .Home-h1 {
     font-family: monospace;
-    color: rgb(189, 7, 7);
+    color: white;
     margin: 200px 100px;
+    font-weight: bold;
     border: 1px solid brown;
     padding: 20px;
     border-radius: 20px;
@@ -25,10 +28,16 @@ body {
 @media(max-width:780px) {
     .Home-h1 {
         font-size: 25px;
+        margin: 50px;
     }
 
     body {
-        background-size: cover;
+        background-position: center;
     
+    }
+
+    #home {
+        padding-right: 10px;
+        background-position: center;
     }
 }
